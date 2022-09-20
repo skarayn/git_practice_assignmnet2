@@ -1,12 +1,12 @@
 let num=11;
 
-let fac=0
-for(let i=0; i<num; i++){
+let factor=0
+for(let i=2; i<num; i++){
     if(num%i==0){
-        fac++
+        factor++
     }
 }
-if(fac!=2){
+if(factor==0){
  console.log("Prime")
 }else{
     console.log("Not Prime")
